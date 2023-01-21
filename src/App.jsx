@@ -20,7 +20,7 @@ const App = () => {
           <ul className="circles">{stars()}</ul>
         </div>
       </div>
-      <Nav />
+      {/* <Nav /> */}
       <Header />
     </ChakraProvider>
   )

@@ -26,6 +26,9 @@ import {
 } from 'react-icons/fa'
 import { SiGraphql } from 'react-icons/si'
 import '../index.css'
+import {MdOutlineSportsCricket} from 'react-icons/md'
+import {ImBook} from 'react-icons/im'
+import {GiPoolTableCorner} from 'react-icons/gi'
 
 export default function Header() {
   return (
@@ -149,37 +152,7 @@ export default function Header() {
                   <Icon as={FaReact} />
                 </Link>
               </Stack>
-              <Badge
-                as="a"
-                variant="outline"
-                marginBottom="2"
-                fontSize="1.2rem"
-              >
-                On the web
-              </Badge>
-              <Stack as={Box} marginY="5" spacing="5">
-                <Text fontSize="2xl" fontWeight="thin">
-                  <Link href="https://github.com/ST0RM-Z" isExternal>
-                    <Icon as={FiGithub} /> @STOMR-Z
-                  </Link>
-                </Text>
-                <Text fontSize="2xl" fontWeight="thin">
-                  <Link href="https://linkedin.com/in/dhairya-a-3ab692a3" isExternal>
-                    <Icon as={FiLinkedin} /> @Dhairya
-                  </Link>
-                </Text>
-                <Text fontSize="2xl" fontWeight="thin">
-                  <Link href="" isExternal>
-                    <Icon as={FaTwitter} /> @Dhairya
-                  </Link>
-                </Text>
-              </Stack>
-              <Text marginTop="8" fontFamily="mono">
-                Get in touch <span>👉</span>{' '}
-                <a className="mail" href="mailto:jayarya017@gmail.com">
-                  jayarya017@gmail.com
-                </a>
-              </Text>
+         
             </Box>
           </Stack>
           <Badge
@@ -327,9 +300,69 @@ export default function Header() {
                     </Link>
               </Button>               
               </Stack>
+             <Stack>
+              
+             </Stack>
+             <Badge
+                as="a"
+                variant="outline"
+                marginBottom="2"
+                fontSize="1.2rem"
+              >
+                Connect via
+              </Badge>
+              <Stack as={Box} marginY="5" spacing="5">
+                <Text fontSize="2xl" fontWeight="thin">
+                  <Link href="https://github.com/ST0RM-Z" isExternal>
+                    <Icon as={FiGithub} /> @STOMR-Z
+                  </Link>
+                </Text>
+                <Text fontSize="2xl" fontWeight="thin">
+                  <Link href="https://linkedin.com/in/dhairya-a-3ab692a3" isExternal>
+                    <Icon as={FiLinkedin} /> @Dhairya
+                  </Link>
+                </Text>
+                <Text fontSize="2xl" fontWeight="thin">
+                  <Link href="" isExternal>
+                    <Icon as={FaTwitter} /> @Dhairya
+                  </Link>
+                </Text>
+              </Stack>
+              <Text marginTop="8" fontFamily="mono">
+                Get in touch <span>👉</span>{' '}
+                <a className="mail" href="mailto:jayarya017@gmail.com">
+                  jayarya017@gmail.com
+                </a>
+              </Text>
+              <Badge
+                as="a"
+                variant="outline"
+                marginBottom="2"
+                fontSize="1.2rem"
+                marginTop="4"
+              >
+                Hobbies
+              </Badge>
+              <Stack as={Box}  marginY="5" spacing="5">
+                <Text fontSize="2xl" color='rgba(61,122,237)' fontWeight="thin">
+                  
+                    <Icon as={GiPoolTableCorner} />Snooker
+                 
+                </Text>
+                <Text fontSize="2xl" color='rgba(61,122,237)' fontWeight="thin">
+                  
+                    <Icon as={ImBook} /> Reading books
+                
+                </Text>
+                <Text fontSize="2xl" color='rgba(61,122,237)' fontWeight="thin">
              
-            
+                    <Icon  as={MdOutlineSportsCricket} /> Playing cricket
+                 
+                </Text>
+              </Stack>
+          
         </Container>
+        
       </Flex>
     </>
   )
