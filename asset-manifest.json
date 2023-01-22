@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Storm_z/static/css/main.d780a151.css",
+    "main.js": "/Portfolio_Storm_z/static/js/main.4df6a92d.js",
+    "static/media/AvatarMaker.png": "/Portfolio_Storm_z/static/media/AvatarMaker.a87abd8f118c06e91f59.png",
+    "static/media/postman-icon-svgrepo-com.svg": "/Portfolio_Storm_z/static/media/postman-icon-svgrepo-com.cf6049079dcdf88f5db7.svg",
+    "static/media/android-icon-svgrepo-com.svg": "/Portfolio_Storm_z/static/media/android-icon-svgrepo-com.768b431fc436045e8d9b.svg",
+    "static/media/graphql-svgrepo-com.svg": "/Portfolio_Storm_z/static/media/graphql-svgrepo-com.84cad7a21c650a4a5ee4.svg",
+    "static/media/react-svgrepo-com.svg": "/Portfolio_Storm_z/static/media/react-svgrepo-com.b215086002bcf486b93f.svg",
+    "static/media/stripe-svgrepo-com.svg": "/Portfolio_Storm_z/static/media/stripe-svgrepo-com.e762ad9f3a7dfcdddf02.svg",
+    "static/media/github-color-svgrepo-com.svg": "/Portfolio_Storm_z/static/media/github-color-svgrepo-com.f4f30b34dc7fa412768c.svg",
+    "static/media/mongodb-svgrepo-com.svg": "/Portfolio_Storm_z/static/media/mongodb-svgrepo-com.e7266917d17ecdb17e8c.svg",
+    "static/media/javascript-svgrepo-com.svg": "/Portfolio_Storm_z/static/media/javascript-svgrepo-com.7ae5439409f50e864c58.svg",
+    "static/media/css-3-svgrepo-com.svg": "/Portfolio_Storm_z/static/media/css-3-svgrepo-com.f502edc6b5b12882e4e0.svg",
+    "static/media/html-5-svgrepo-com(2).svg": "/Portfolio_Storm_z/static/media/html-5-svgrepo-com(2).1a2a18b4c1f43f64ab92.svg",
+    "index.html": "/Portfolio_Storm_z/index.html",
+    "main.d780a151.css.map": "/Portfolio_Storm_z/static/css/main.d780a151.css.map",
+    "main.4df6a92d.js.map": "/Portfolio_Storm_z/static/js/main.4df6a92d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d780a151.css",
+    "static/js/main.4df6a92d.js"
+  ]
+}
