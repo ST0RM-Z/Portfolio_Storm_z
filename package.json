@@ -2,7 +2,8 @@
   "name": "Dhairya",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "homepage": "https://st0rm-z.github.io/Portfolio_Storm_z/",
+   "dependencies": {
     "@chakra-ui/icons": "^1.1.7",
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "^11.9.0",
