@@ -45,11 +45,11 @@ export default function Header() {
             direction="column"
           >
             
-            <Box  position='relative' left='39.2%' top='10.0%' width='9rem' border="6px solid rgba(255, 250, 0, 0.67)" borderRadius='100%'>
+       
+            <Box w="100" position='relative'>
+            <Box  position='absolute' left='40.0%' top='6.4%' width='9rem' border="6px solid rgba(255, 250, 0, 0.67)" borderRadius='100%'>
               <Box border="4px solid white" borderRadius='60%'></Box>
             </Box>
-            <Box w="100">
-              
               <Img
               className='img-avatar'
               style={{
