@@ -31,6 +31,8 @@ import {ImBook} from 'react-icons/im'
 import {GiPoolTableCorner} from 'react-icons/gi'
 
 export default function Header() {
+
+
   return (
     <>
   
@@ -43,7 +45,7 @@ export default function Header() {
             direction="column"
           >
             
-            <Box position='absolute' left='45.2%' top='6.9%' width='9rem' border="6px solid rgba(255, 250, 0, 0.67)" borderRadius='100%'>
+            <Box  position='relative' left='39.2%' top='10.0%' width='9rem' border="6px solid rgba(255, 250, 0, 0.67)" borderRadius='100%'>
               <Box border="4px solid white" borderRadius='60%'></Box>
             </Box>
             <Box w="100">
@@ -54,9 +56,10 @@ export default function Header() {
                 display: "block",
                 marginLeft: "auto",
                 marginRight: "auto",
-                width: "68%",
+                width: "24rem",
                 
               }}
+              
               alignItems='center'
         justifyContent='center'
             height='28rem'
@@ -100,10 +103,8 @@ export default function Header() {
                 marginX="1"
                 boxSizing="content-box"
               >
-                <span className="highlighted-word">
-                  Web development student
-                </span>
-                , <span className="highlighted-word">full-stack developer</span>{' '}
+                
+                <span className="highlighted-word">Full-stack developer</span>{' '}
                 and <span className="highlighted-word">tech enthusiast</span>.
               </Text>
             </Box>
@@ -182,12 +183,12 @@ export default function Header() {
               padding='0.8rem'
               backgroundColor='rgba(255, 255, 255, 0.67)'
               >
-                <Text>
+                <Text fontSize="xl">
                   !Null                 
                   </Text>
               </Badge>
-                <Text fontSize="2xl" fontWeight="thin">
-              1  Created a e-commerce web-site using PHP and mysql where user can register and login,It also had option to login as admin to modify products
+                <Text fontSize="md" fontWeight="thin" fontFamily="monospace">
+              Created a e-commerce web-site using PHP and mysql where user can register and login,It also had option to login as admin to modify products
                   
                 </Text>
        
@@ -228,12 +229,12 @@ export default function Header() {
               padding='0.8rem'
               backgroundColor='rgba(255, 255, 255, 0.67)'
               >
-                <Text>
+                <Text fontSize="xl">
                  DriveTest               
                   </Text>
               </Badge>
-                <Text fontSize="2xl" fontWeight="thin">
-                2  Created a web-site using PUG,Node.js & Express.js where user can book appointment for g1,g2,g licence and admin can also view the booking
+                <Text fontSize="md" fontWeight="thin" fontFamily="monospace">
+                Created a web-site using PUG,Node.js & Express.js where user can book appointment for g1,g2,g licence and admin can also view the booking
  
                 </Text>
        
@@ -274,12 +275,12 @@ export default function Header() {
               padding='0.8rem'
               backgroundColor='rgba(255, 255, 255, 0.67)'
               >
-                <Text>
+                <Text fontSize="xl">
             Expedite              
                   </Text>
               </Badge>
-                <Text fontSize="2xl" fontWeight="thin">
-                3  Created a e-commerce web-site using React and MongoDb where user can register and login,It also had option to login as admin to modify products   
+                <Text fontSize="md" fontWeight="thin" fontFamily="monospace">
+                Created a e-commerce web-site using React and MongoDb where user can register and login,It also had option to login as admin to modify products   
                 </Text>
        
                 <Button
