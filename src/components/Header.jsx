@@ -319,7 +319,7 @@ export default function Header() {
                   </Link>
                 </Text>
                 <Text fontSize="2xl" fontWeight="thin">
-                  <Link href="https://linkedin.com/in/dhairya-a-3ab692a3" isExternal>
+                  <Link href="https://linkedin.com/in/dhairyaarya" isExternal>
                     <Icon as={FiLinkedin} /> @Dhairya
                   </Link>
                 </Text>
